@@ -1,3 +1,5 @@
+// Render a React App – Create a LoginForm Component
+
 import * as React from 'react'
 import ReactDOM from 'react-dom'
 import {Logo} from './components/logo'
@@ -41,7 +43,7 @@ const App = () => {
   const [openModal, setOpenModal] = React.useState('none')
 
   const login = (formData) => {
-      console.log('login', formData);
+      console.log('login', formData); // in the future, we'll be able to actually hit a backend to login the user
   }
 
   const register = (formData) => {
